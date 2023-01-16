@@ -68,8 +68,8 @@ text-align: center;
 
 }
 .section-title{
-   
-    margin: 30px;
+   text-align: center;
+   margin-bottom: 50px;
     font-size: 35px;
     font-weight: 700;
 
@@ -96,3 +96,24 @@ margin-bottom: 30px;
 .What i do{
     margin-top: 130px;
 }
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    background-color: #FFFFFF;
+    box-shadow: 0PX 6PX 50PX rgb(0,0,0,0.06);
+    border-radius: 5PX;
+    padding: 30PX;
+}
+.skill-title{
+    font-size: 700;
+    font-weight: 700px;
+    margin-top: 30PX;
+    margin-bottom: 20PX;
+}
+.skill-description{
+    color: #757575;
+}
+/* Resume styels */
+
